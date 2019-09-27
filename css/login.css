@@ -1,0 +1,228 @@
+
+  .btnContainer   {
+   width: 150px;
+  height: 150px;
+  margin: 0px;
+  padding: 0px;
+       padding: 2%;
+   }
+
+   .col-sm-2{
+     text-align: center;
+   }
+   .priceText
+   {
+     text-align: center;
+   }
+      .homebtnContainer
+      {
+          /* padding-top: 50%; */
+       padding-left: 10%;
+      }
+   
+      .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+       display: block;
+       max-width: 70% !important;
+       height: auto;
+       border-radius: 0% !important;
+   }
+   
+   .business-header {
+       height: 400px;
+       background: url('../img/bike1.jpg') center center no-repeat scroll  !important;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       background-size: 100% 100% !important;
+       -o-background-size: cover;
+   }
+   /**/
+   #menu_container
+   {
+     padding-top: 5% !important;
+     text-align: center;
+   }
+   
+   #wrapper {
+     width: 200px;
+     height: 240px;
+     margin: 0 auto;
+   }
+   #scroller {
+     position: absolute;
+     z-index: 1;
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
+     width: 800px;
+     height: 240px;
+     -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+     -ms-transform: translateZ(0);
+     -o-transform: translateZ(0);
+     transform: translateZ(0);
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+     -ms-text-size-adjust: none;
+     -o-text-size-adjust: none;
+     text-size-adjust: none;
+     background-color: #444;
+   }
+   #myNav{
+    background-color: #4ba8f7;
+   }
+   .bookbtn{
+     width:200px !important;
+     height:50px !important;
+     padding: 5px;
+     margin :10px;
+   }
+   .summaryContainer
+   {
+     padding:5%;
+   }
+   
+   .parentContainer
+   {
+    padding:2%;
+   }
+   
+   
+   .custom-li a {
+       display: block;
+       color: #555;
+       padding: 8px 0 8px 16px;
+       text-decoration: none;
+   }
+   .customizeForm
+   {
+       padding: 10%;
+   }
+  
+.shopping-cart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+ 
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+ 
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+
+.image {
+  margin-right: 50px;
+}
+.quantity {
+  padding-top: 20px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+ 
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+ 
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+  .buttons {
+    margin-right: 20px;
+  }
+}
